@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* jQuery-Ajax Auto Suggest v.1.0 */
+/* Created by Isaac Oslund | isaac@oslund.ca  */
+
+
+.ausu-suggest input
+{
+//    padding:6px;
+//    border:1px #CCC solid;
+//    font-size:14px;
+}
+.ausu-suggestionsBox
+{
+    position: absolute; 
+    top: auto;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+    margin: 26px 0px 0px 0px; 
+    width: 500px;  
+    padding:0px; 
+    color: #FFF; 
+    display: none; 
+    padding: 0 0 0 0;  
+} 
+
+
+.ausu-suggestionsBox ul 
+{
+    list-style:none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: #FFFFFF;
+}
+
+.ausu-suggestionsBox ul li a
+{
+    display: block;
+    text-indent:  4px;
+    width: 100%;
+    color: #FF;
+    text-decoration: none;
+    padding: 6px 0 6px 0;
+    border-bottom:1px solid #666;
+}
+
+.ausu-load { background: url(../image/loader.gif) right no-repeat; }
+
+.ausu-suggest
+{
+    position:relative;
+    float: left;
+ }
+
+.selected a
+{
+    background-color: #ff3366;
+	color:#FFF;
+}
+

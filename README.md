@@ -1,1 +1,1 @@
-# projectmagang
+# magang
